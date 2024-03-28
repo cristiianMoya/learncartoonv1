@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imagen_contactenos{
+        background-image:url("../img/imagen contactenos.png");
+        background-position: center center;
+        background-size: cover;
+      
+}
+.contenedor_contactanos1{
+
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+
+

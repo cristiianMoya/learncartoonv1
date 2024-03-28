@@ -1,0 +1,35 @@
+
+
+/* estilo de barra de progreso */
+/* defincion de color */
+:root{
+    --color1:rgb(15, 123, 212);
+}
+/* .svg{
+    background-color: aqua;
+} */
+.progreso{
+    fill: none;
+    stroke-width: 15;
+    stroke: var(--color1);
+    transform: rotate(-90deg);
+    transform-origin: center;
+    stroke-linecap: round;
+    stroke-dasharray: 630;
+    stroke-dashoffset: 630;
+    
+}
+.progreso2{
+    fill: none;
+    stroke:#fff;
+    stroke-width: 15;
+
+}
+.caja_porcentage{
+    position: absolute;
+    left: 43%;
+    top: 32%;
+
+}
+
+

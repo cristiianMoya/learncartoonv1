@@ -1,0 +1,120 @@
+section.login{
+    border: 2px solid;
+    padding: 100PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg{
+    background-image:url("../img/imagen10.png");
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  /* estilo contactenos */
+  .top-element{
+    top: 100px;
+  }
+  
+  .bg-imagen{
+    background-image: url("../img/contactenosnew.png");
+    background-position: center center;
+    background-size: cover;
+  }
+  .bg-registrar{
+    background-image: url("../img/registrarse.png");
+    background-position: center center;
+    background-size: cover;
+  }
+  /* .contenedor-contac{
+  margin:100px 0px ;
+  } */
+  /* estilo favicon */
+  link[rel="icon"] {
+    border-radius: 50%;
+  }
+  .contenedor-universal{
+    background-color:#e4e4e4;
+  }
+  .contenedor-footer{
+    border-bottom: 2px solid #e4e4e4;
+  }
+  .contenido_principal{
+    background-image:url("../img/paisaje.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  /* estilos de card */
+  .card1{
+    cursor: pointer;
+  }
+  .contenido_card,.listado_oculto{
+    width: 100%;
+    height: 100%;
+    /* position:absolute; */
+    top: 30px;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+  }
+  .contenido_card{
+    padding: 15px;
+  }
+  .listado_oculto{
+    border-radius: 3px;
+   position: absolute;
+   top:0;
+   color: white;
+  }
+  .listado_oculto {
+    background-image: url('../img/card1.gif');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+  }
+  .card:hover .contenido_card {
+    transform: rotateY(-180deg);
+  }
+  .card:hover .listado_oculto {
+    transform: rotateY(0deg);
+  }
+  ul {
+    /* text-decoration: none; */
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* estilos de mision imagenes de inclinacion en el eje y*/
+  .mision1{
+    transform: skewY(3deg);
+
+  }
+  .mision2{
+    transform: skewY(-3deg);
+  }
+  a{
+    text-decoration: none;
+  }
+  .lista_targeta{
+    /* text-decoration: none; */
+    cursor: pointer;
+border-radius:20px 0px 0px 20px;
+background-color: #7ed957;
+padding: 4px; 
+color:white;
+  }
+.lista_targeta:hover{
+  transform: scaleX(1.1) scaleY(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+  
+  
+  
+
+  
+  
